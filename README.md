@@ -3,7 +3,7 @@
 
 **Task 1**
 
-1. Adding a session view to the project
+1. Adding task viewing to the project via session
 
 2. Deleting tasks
 
