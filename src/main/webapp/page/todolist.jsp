@@ -4,8 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Todo-list</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/todolist.css">
     <style>
         <%@include file="/css/style.css"%>
         <%@include file="/css/todolist.css"%>
@@ -31,26 +29,28 @@
     <h2 class="main-header">My Todo <span class="red-span">LIST</span>!</h2>
 
     <div class="wrapper-center">
-        <form action="" method="post">
-            <input type="text" name="newTask" id="new-task" placeholder="Input new task.." required>
-            <button class="button button-add" type="button">Add task</button>
+        <form action="todolist" method="post">
+            <input type="text" name="newTask" id="new-task" placeholder="Input description task.." required>
+            <input type="hidden" name="action" value="add">
+            <button class="button button-add" type="submit">Add task</button>
         </form>
     </div>
 
     <div class="wrapper-center">
-        <table class="todo-list">
+        <c:if test="${tasks == null || tasks.isEmpty()}">
+                <div class="todolist-empty">The task list is empty, add a new task</div>
+        </c:if>
+        <ul class="todo-list">
         <c:forEach var="task" items="${tasks}">
-            <tr class="todo-row">
-                <td class="todo-number">1</td>
-                <td class="todo-text">${task}</td>
-                <td class="todo-buttons">
-                    <form action="" method="post">
-                        <button type="button" class="button button-delete">Delete</button>
-                    </form>
-                </td>
-            </tr>
+            <li class="todo-row">
+                <p class="todo-text">${task}</p>
+                <form action="todolist" method="POST">
+                    <input type="hidden" name="deleteTask" value="${task}">
+                    <button type="submit" class="button button-delete">Delete</button>
+                </form>
+            </li>
         </c:forEach>
-        </table>
+        </ul>
     </div>
 
 </main>

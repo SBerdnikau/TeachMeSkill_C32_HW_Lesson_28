@@ -1,0 +1,60 @@
+2025-01-26 14:54:44 - The request has been initialized: 127.0.0.1
+2025-01-26 14:54:44 - The request is destroyed: 127.0.0.1
+2025-01-26 14:54:44 - The request has been initialized: 127.0.0.1
+2025-01-26 14:54:44 - The request is destroyed: 127.0.0.1
+2025-01-26 14:54:44 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-01-26 14:54:44 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-01-26 14:54:52 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-01-26 14:54:52 - Login attempt -> username=admin
+2025-01-26 14:54:52 - The session has been created:  C25893D8E86DC1E83A650CC2FFBB1067
+2025-01-26 14:54:52 - Successful login -> admin
+2025-01-26 14:54:52 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-01-26 14:54:56 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-01-26 14:54:56 - The user -> admin went to the todolist page
+2025-01-26 14:54:57 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:00 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:00 - User admin add new task Learn Java Core
+2025-01-26 14:55:00 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:03 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:03 - User admin add new task Learn Java EE
+2025-01-26 14:55:03 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:07 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:07 - User admin remove task Learn Java Core
+2025-01-26 14:55:07 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:10 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:10 - The user logs out of the system -> admin
+2025-01-26 14:55:10 - The session is destroyed:  C25893D8E86DC1E83A650CC2FFBB1067
+2025-01-26 14:55:10 - User session admin completed successfully
+2025-01-26 14:55:10 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:10 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:10 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:21 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:21 - Login attempt -> username=user
+2025-01-26 14:55:21 - The session has been created:  C12D5AB099B693351BF2E55F95A609CE
+2025-01-26 14:55:21 - Successful login -> user
+2025-01-26 14:55:21 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:23 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:23 - The user -> user went to the todolist page
+2025-01-26 14:55:23 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:26 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:26 - User user add new task Learn English
+2025-01-26 14:55:26 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:27 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:27 - The user logs out of the system -> user
+2025-01-26 14:55:27 - The session is destroyed:  C12D5AB099B693351BF2E55F95A609CE
+2025-01-26 14:55:27 - User session user completed successfully
+2025-01-26 14:55:27 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:27 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:27 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:33 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:33 - Login attempt -> username=admin
+2025-01-26 14:55:33 - The session has been created:  16D7EB54B3259E94D380F03E0B546C5A
+2025-01-26 14:55:33 - Successful login -> admin
+2025-01-26 14:55:33 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:36 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:36 - The user logs out of the system -> admin
+2025-01-26 14:55:36 - The session is destroyed:  16D7EB54B3259E94D380F03E0B546C5A
+2025-01-26 14:55:36 - User session admin completed successfully
+2025-01-26 14:55:36 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:36 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-01-26 14:55:36 - The request is destroyed: 0:0:0:0:0:0:0:1

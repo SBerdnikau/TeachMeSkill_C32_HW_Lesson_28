@@ -8,8 +8,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class LoggerUtil {
-
-    private final static String PATH_TO_LOG_FILE = "D:\\TeachMeSkills_C32_HW\\TeachMeSkills_C32_HW_Lesson_27\\src\\main\\resources\\logs\\log.txt";
+    private final static String PATH_TO_LOG_FILE = "D:\\TeachMeSkills_C32_HW\\TeachMeSkill_C32_HW_Lesson_28\\src\\main\\resources\\logs\\log.txt";
 
     public static void logToFile(String message) {
         String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));

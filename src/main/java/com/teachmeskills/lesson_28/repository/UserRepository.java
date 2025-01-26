@@ -21,7 +21,7 @@ public class UserRepository {
         return false;
     }
 
-    public static boolean addUser(String username, String password,String confirmPassword){
+    public static boolean isAddUser(String username, String password,String confirmPassword){
         if (username == null || password == null || confirmPassword == null){
             return false;
         }

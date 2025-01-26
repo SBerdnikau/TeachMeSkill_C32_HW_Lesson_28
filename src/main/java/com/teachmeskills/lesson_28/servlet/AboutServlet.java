@@ -15,10 +15,10 @@ public class AboutServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession session = req.getSession();
-        String userName = (String) session.getAttribute("username");
+        String username = (String) session.getAttribute("username");
 
-        if (userName != null) {
-            LoggerUtil.logToFile("The user -> " + userName + " went to the about me page");
+        if (username != null) {
+            LoggerUtil.logToFile("The user -> " + username + " went to the about me page");
             req.getRequestDispatcher( "/page/about.html").forward(req, resp);
         }else {
             LoggerUtil.logToFile("User redirected to 401 error page");

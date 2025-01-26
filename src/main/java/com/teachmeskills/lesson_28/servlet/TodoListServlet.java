@@ -1,7 +1,8 @@
 package com.teachmeskills.lesson_28.servlet;
 
 import com.teachmeskills.lesson_28.logger.LoggerUtil;
-import com.teachmeskills.lesson_28.repository.ToDoRepository;
+
+import com.teachmeskills.lesson_28.repository.TaskRepository;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -10,25 +11,26 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
-import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 
 @WebServlet("/todolist")
 public class TodoListServlet extends HttpServlet {
+
+    private TaskRepository taskRepository;
+
+    @Override
+    public void init() throws ServletException {
+        taskRepository = new TaskRepository();
+    }
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession session = req.getSession();
-        String userName = (String) session.getAttribute("username");
-
-        if (userName != null) {
-            Set<String> tasks = new HashSet<>();
-            tasks.add("Learn Java CORE");
-            tasks.add("Learn Java EE");
-            tasks.add("Learn Spring FrameWork");
+        String username = (String) session.getAttribute("username");
+        if (username != null) {
+            Set<String> tasks = taskRepository.getTasksByUsername(username);
             req.setAttribute("tasks", tasks);
-
-            LoggerUtil.logToFile("The user -> " + userName + " went to the todolist page");
+            LoggerUtil.logToFile("The user -> " + req.getSession().getAttribute("username") + " went to the todolist page");
             req.getRequestDispatcher("/page/todolist.jsp").forward(req, resp);
         }else {
             LoggerUtil.logToFile("User redirected to 401 error page");
@@ -38,11 +40,26 @@ public class TodoListServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//        Set<String> tasks = new HashSet<>();
-//        tasks.add("Learn Java CORE");
-//        tasks.add("Learn Java EE");
-//        tasks.add("Learn Spring FrameWork");
-//        req.setAttribute("tasks", tasks);
-//        req.getRequestDispatcher("/page/todolist.jsp").forward(req, resp);
+        String newTask = req.getParameter("newTask");
+        String deleteTask = req.getParameter("deleteTask");
+        HttpSession session = req.getSession();
+        String username = (String) session.getAttribute("username");
+
+        Set<String> tasks = taskRepository.getTasksByUsername(username);
+
+        if (newTask != null){
+            tasks.add(newTask);
+            LoggerUtil.logToFile("User " + username + " add new task " + newTask);
+            taskRepository.getTaskList().put(username, tasks);
+        }
+
+        if (deleteTask != null){
+            tasks.remove(deleteTask);
+            LoggerUtil.logToFile("User " + username + " remove task " + deleteTask);
+            taskRepository.getTaskList().put(username, tasks);
+        }
+
+        req.setAttribute("tasks", tasks);
+        req.getRequestDispatcher("/page/todolist.jsp").forward(req, resp);
     }
 }

@@ -13,6 +13,7 @@ import java.io.IOException;
 
 @WebServlet("/registration")
 public class RegistrationServlet extends HttpServlet {
+    private final UserRepository userRepository = new UserRepository();
 
       @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -22,8 +23,7 @@ public class RegistrationServlet extends HttpServlet {
 
         LoggerUtil.logToFile("Registration attempt -> username=" + username);
 
-        boolean isAddUser = UserRepository.addUser(username, password, confirmPassword);
-
+        boolean isAddUser = UserRepository.isAddUser(username, password, confirmPassword);
         if (isAddUser) {
             HttpSession session = req.getSession();
             session.setAttribute("username", username);
@@ -38,6 +38,12 @@ public class RegistrationServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        doPost(req, resp);
+        HttpSession session = req.getSession();
+        String username = (String) session.getAttribute("username");
+        if (username == null){
+            req.getRequestDispatcher("/registration.html").forward(req,resp);
+        }else {
+            req.getRequestDispatcher("/page/about.html").forward(req,resp);
+        }
     }
 }

@@ -46,27 +46,26 @@
 .header-text{
     color: #f4f4f4;
     padding-top: 8px;
+    flex-grow: 1;
 }
 
 .todo-list{
-    width: 52%;
-    border-collapse: collapse;
     background-color: #ffffff;
-    margin: auto;
+}
+
+.todolist-empty{
+   text-align: center;
 }
 
 .todo-row{
-    padding: 0;
-    margin: 0;
-}
-
-.todo-number, .todo-text, .todo-buttons{
+    display: flex;
+    align-items: center;
     border: 1px solid  #F08080;
-    padding: 8px;
 }
 
-.todo-number{
-   text-align: center;
+.todo-text{
+    flex-grow: 1;
+    padding: 8px;
 }
 
 #new-task{

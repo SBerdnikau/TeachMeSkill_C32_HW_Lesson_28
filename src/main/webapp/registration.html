@@ -1,8 +1,7 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -10,12 +9,13 @@
     <h2 class="main-header">Welcome to our portal!</h2>
     <section id="section-1">
         <div class="login-container">
-            <h2>Login</h2>
-            <form method="post" action="login" class="login-form">
+            <h2>Registration</h2>
+            <form method="post" action="registration" class="login-form">
                 <input type="text" name="username" placeholder="Username" required>
                 <input type="password" name="password" placeholder="Password" required>
-                <button type="submit">Sign in</button>
-                <a href="registration.html" class="button button-auth" >Registration</a>
+                <input type="password" name="confirmPassword" placeholder="Confirm password" required>
+                <button type="submit">Registration</button>
+                <a href="login.html" class="button button-auth" >Sign in</a>
             </form>
             <div id="errorMessage" class="error-message">
                 Invalid username or password..
