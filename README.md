@@ -1,4 +1,7 @@
+# Here, the following tasks are implemented:
 
+
+**Task 1**
 
 1. Adding a session view to the project
 
