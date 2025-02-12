@@ -41,6 +41,11 @@
             <artifactId>apache-jstl</artifactId>
             <version>11.0.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.2</version>
+        </dependency>
     </dependencies>
 
     <build>

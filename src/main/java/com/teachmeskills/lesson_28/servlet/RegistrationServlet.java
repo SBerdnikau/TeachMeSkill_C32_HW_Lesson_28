@@ -10,21 +10,27 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import java.io.IOException;
+import java.sql.SQLException;
 
 @WebServlet("/registration")
 public class RegistrationServlet extends HttpServlet {
-    private final UserRepository userRepository = new UserRepository();
 
-      @Override
+    private final UserRepository userRepository;
+
+    public RegistrationServlet() {
+        userRepository = new UserRepository();
+    }
+
+    @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String username = req.getParameter("username");
         String password = req.getParameter("password");
         String confirmPassword = req.getParameter("confirmPassword");
 
         LoggerUtil.logToFile("Registration attempt -> username=" + username);
+        boolean isValid = userRepository.isValid(username, password);
 
-        boolean isAddUser = UserRepository.isAddUser(username, password, confirmPassword);
-        if (isAddUser) {
+        if (!isValid && password.equals(confirmPassword)) {
             HttpSession session = req.getSession();
             session.setAttribute("username", username);
             LoggerUtil.logToFile("Successful registration -> " + username);
@@ -46,4 +52,6 @@ public class RegistrationServlet extends HttpServlet {
             req.getRequestDispatcher("/page/about.html").forward(req,resp);
         }
     }
+
+
 }

@@ -10,20 +10,27 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import java.io.IOException;
+import java.sql.SQLException;
 
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
-    private final UserRepository userRepository  = new UserRepository();
 
-     @Override
+    private final UserRepository userRepository;
+
+    public LoginServlet() {
+        userRepository = new UserRepository();
+    }
+
+    @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
        String username = req.getParameter("username");
        String password = req.getParameter("password");
 
          LoggerUtil.logToFile("Login attempt -> username=" + username);
-         boolean isValidUser = UserRepository.isValidLogin(username, password);
+         UserRepository userRepository = new UserRepository();
+         boolean isValid = userRepository.isValid(username, password);
 
-        if (isValidUser){
+        if (isValid){
             HttpSession newSession = req.getSession();
             newSession.setAttribute("username", username);
             LoggerUtil.logToFile("Successful login -> " + username);
