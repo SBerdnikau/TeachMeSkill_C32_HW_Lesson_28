@@ -1,6 +1,6 @@
 create table if not exists public.tasks
 (
-    id          bigint default nextval('task_data_id_task_seq'::regclass) not null
+    id    bigserial   not null
         constraint task_data_pkey
             primary key,
     description varchar                                                   not null,
