@@ -3,7 +3,7 @@ LANGUAGE plpgsql
 AS
 $$
     BEGIN
-            DELETE FROM users WHERE firstname = firstname_input;
+            DELETE FROM users WHERE first_name = firstname_input;
     END;
 $$;
 

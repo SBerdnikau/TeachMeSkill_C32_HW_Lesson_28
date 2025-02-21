@@ -33,54 +33,41 @@ public class UserRepository {
         return users;
     }
 
-    public boolean isValid(String username, String password)  {
+    public boolean isValid(String login, String password)  {
         Connection connection = databaseService.getConnection();
         PreparedStatement preparedStatement;
-
-        User user = null;
         try {
             preparedStatement = connection.prepareStatement(SQLQuery.IS_VALID);
-            preparedStatement.setString(1, username);
+            preparedStatement.setString(1, login);
             preparedStatement.setString(2, password);
 
            ResultSet result = preparedStatement.executeQuery();
-
-            while (result.next()) {
-                user = parseUser(result);
-            }
-
-            if (user == null || user.getFirstName() == null || user.getSecondName() == null){
-                return false;
-            }
-
-            if (user.getFirstName().equals(username)  ){
-                return user.getSecondName().equals(password);
-            }
-
-            return false;
+           return result.next(); // true or false
 
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-
     }
 
-    public boolean isContainsUserByName(String username){
-        Set<User> users = getAllUsers();
-        for (User user : users){
-            if(user.getFirstName().equals(username)){
-                return true;
-            }
+    public boolean isContainsUserByName(String login){
+        Connection connection = databaseService.getConnection();
+        PreparedStatement preparedStatement;
+        try {
+            preparedStatement = connection.prepareStatement(SQLQuery.GET_SECURITY_BY_LOGIN);
+            preparedStatement.setString(1, login);
+            ResultSet result = preparedStatement.executeQuery();
+            return result.next();
+        }catch (SQLException e){
+            throw new RuntimeException(e);
         }
-        return false;
     }
 
     public User parseUser(ResultSet result) {
         try {
             User user = new User();
             user.setId(result.getLong("id"));
-            user.setFirstName(result.getString("firstname"));
-            user.setSecondName(result.getString("secondname"));
+            user.setFirstName(result.getString("first_name"));
+            user.setSecondName(result.getString("second_name"));
             user.setCreated(result.getDate("created"));
             user.setChanged(result.getDate("changed"));
             user.setAge(result.getInt("age"));
@@ -135,4 +122,6 @@ public class UserRepository {
         }
         return false;
     }
+
+
 }

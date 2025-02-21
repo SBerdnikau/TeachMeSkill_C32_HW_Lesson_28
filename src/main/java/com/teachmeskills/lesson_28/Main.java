@@ -10,19 +10,19 @@ import java.sql.SQLException;
 
 public class Main {
     public static void main(String[] args) {
-        UserRepository userRepository = new UserRepository();
-        DatabaseService databaseService = new DatabaseService();
-        //userRepository.addUser("Bill333", "Gats333", 44, "login_bill_333","pass_bill_333");
-        Connection connection = databaseService.getConnection();
-        try {
-            connection.setAutoCommit(false);
+//        UserRepository userRepository = new UserRepository();
+//        DatabaseService databaseService = new DatabaseService();
+//        userRepository.addUser("Bill333", "Gats333", 44, "login_bill_333","pass_bill_333");
+//        Connection connection = databaseService.getConnection();
+//        try {
+//            connection.setAutoCommit(false);
             //выполнение процедуры
-            CallableStatement callableStatement = connection.prepareCall(SQLQuery.CALL_DELETE_USER_BY_FIRSTNAME);
-            callableStatement.execute();
+        //    CallableStatement callableStatement = connection.prepareCall(SQLQuery.CALL_DELETE_USER_BY_FIRSTNAME);
+        //    callableStatement.execute();
 
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+//        } catch (SQLException e) {
+//            throw new RuntimeException(e);
+//        }
 
     }
 }

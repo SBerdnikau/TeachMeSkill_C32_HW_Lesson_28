@@ -13,7 +13,7 @@
 <body>
 
 <header class="header-wrapper">
-    <p class="header-text">Welcome, dear <span class="red-span">${sessionScope["username"]}</span></p>
+    <p class="header-text">Welcome, dear <span class="red-span">${sessionScope["login"]}</span></p>
     <div id="header-buttons">
         <form action="about" method="GET">
             <button type="submit" class="button button-about">About me</button>

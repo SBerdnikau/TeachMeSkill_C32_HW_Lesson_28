@@ -22,10 +22,10 @@ public class AboutServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession session = req.getSession();
-        String username = (String) session.getAttribute("username");
+        String login = (String) session.getAttribute("login");
 
-        if (username != null) {
-            LoggerUtil.logToFile("The user -> " + username + " went to the about me page");
+        if (login != null) {
+            LoggerUtil.logToFile("The user -> " + login + " went to the about me page");
             req.getRequestDispatcher( "/page/about.html").forward(req, resp);
         }else {
             LoggerUtil.logToFile("User redirected to 401 error page");

@@ -18,10 +18,10 @@ public class LogoutServlet extends HttpServlet {
             HttpSession session = req.getSession();
 
             if (session != null){
-                String username = session.getAttribute("username").toString();
-                LoggerUtil.logToFile("The user logs out of the system -> " + username);
+                String login = session.getAttribute("login").toString();
+                LoggerUtil.logToFile("The user logs out of the system -> " + login);
                 session.invalidate();
-                LoggerUtil.logToFile("User session " + username + " completed successfully");
+                LoggerUtil.logToFile("User session " + login + " completed successfully");
             }
 
             resp.setStatus(HttpServletResponse.SC_OK);

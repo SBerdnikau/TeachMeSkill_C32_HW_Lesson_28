@@ -22,3 +22,673 @@
 2025-02-01 14:56:07 - The request is destroyed: 0:0:0:0:0:0:0:1
 2025-02-01 14:56:07 - The request has been initialized: 0:0:0:0:0:0:0:1
 2025-02-01 14:56:07 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-13 12:08:14 - user successfully added to the database
+2025-02-13 13:31:26 - user successfully added to the database
+2025-02-20 11:34:25 - The request has been initialized: 127.0.0.1
+2025-02-20 11:34:25 - The request is destroyed: 127.0.0.1
+2025-02-20 11:34:25 - The request has been initialized: 127.0.0.1
+2025-02-20 11:34:25 - The request is destroyed: 127.0.0.1
+2025-02-20 11:34:25 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 11:34:25 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 11:34:25 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 11:34:25 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 11:34:25 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 11:34:25 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 11:35:46 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 11:35:46 - Login attempt -> username=hfgh
+2025-02-20 11:35:47 - The user was not found -> hfgh
+2025-02-20 11:35:47 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 11:35:47 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 11:35:47 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 11:36:01 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 11:36:01 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:30:04 - The request has been initialized: 127.0.0.1
+2025-02-20 12:30:04 - The request is destroyed: 127.0.0.1
+2025-02-20 12:30:04 - The request has been initialized: 127.0.0.1
+2025-02-20 12:30:04 - The request is destroyed: 127.0.0.1
+2025-02-20 12:30:14 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:30:14 - Login attempt -> username=admin
+2025-02-20 12:30:14 - The session has been created:  2415FDFD165C051C32E7B6FD132E910C
+2025-02-20 12:30:14 - Successful login -> admin
+2025-02-20 12:30:14 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:30:14 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:30:14 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:30:14 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:30:14 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:30:42 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:30:42 - The user logs out of the system -> admin
+2025-02-20 12:30:42 - The session is destroyed:  2415FDFD165C051C32E7B6FD132E910C
+2025-02-20 12:30:42 - User session admin completed successfully
+2025-02-20 12:30:42 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:30:42 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:30:42 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:30:49 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:30:49 - Login attempt -> username=iop
+2025-02-20 12:30:49 - The user was not found -> iop
+2025-02-20 12:30:49 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:30:49 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:30:49 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:32:28 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:32:28 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:32:33 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:32:33 - Login attempt -> username=admin
+2025-02-20 12:32:33 - The user was not found -> admin
+2025-02-20 12:32:33 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:32:33 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:32:33 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:32:41 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:32:41 - Login attempt -> username=admin
+2025-02-20 12:32:41 - The session has been created:  C4979AE733536D7531E2B942DD241700
+2025-02-20 12:32:41 - Successful login -> admin
+2025-02-20 12:32:41 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:32:48 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:32:48 - Login attempt -> username=admin
+2025-02-20 12:32:48 - Successful login -> admin
+2025-02-20 12:32:48 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:32:56 - The session is destroyed:  C4979AE733536D7531E2B942DD241700
+2025-02-20 12:33:01 - The request has been initialized: 127.0.0.1
+2025-02-20 12:33:01 - The request is destroyed: 127.0.0.1
+2025-02-20 12:33:01 - The request has been initialized: 127.0.0.1
+2025-02-20 12:33:01 - The request is destroyed: 127.0.0.1
+2025-02-20 12:33:07 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:33:07 - Login attempt -> username=admin
+2025-02-20 12:33:07 - The session has been created:  FB8ADD9754B710E76B328EAE89170D51
+2025-02-20 12:33:07 - Successful login -> admin
+2025-02-20 12:33:07 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:33:11 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:33:11 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:41:36 - The session is destroyed:  FB8ADD9754B710E76B328EAE89170D51
+2025-02-20 12:41:41 - The request has been initialized: 127.0.0.1
+2025-02-20 12:41:41 - The request is destroyed: 127.0.0.1
+2025-02-20 12:41:41 - The request has been initialized: 127.0.0.1
+2025-02-20 12:41:41 - The request is destroyed: 127.0.0.1
+2025-02-20 12:42:50 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:42:50 - Login attempt -> username=admin
+2025-02-20 12:42:50 - The session has been created:  2CDBEBB9B9F703B058B185E0EA972BA5
+2025-02-20 12:42:50 - Successful login -> admin
+2025-02-20 12:42:50 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:44:36 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:44:36 - Login attempt -> username=admin
+2025-02-20 12:44:36 - Successful login -> admin
+2025-02-20 12:44:36 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:45:38 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:45:38 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:45:58 - The session is destroyed:  2CDBEBB9B9F703B058B185E0EA972BA5
+2025-02-20 12:46:03 - The request has been initialized: 127.0.0.1
+2025-02-20 12:46:03 - The request is destroyed: 127.0.0.1
+2025-02-20 12:46:03 - The request has been initialized: 127.0.0.1
+2025-02-20 12:46:03 - The request is destroyed: 127.0.0.1
+2025-02-20 12:46:19 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:46:19 - Login attempt -> username=admin
+2025-02-20 12:46:19 - The session has been created:  182CBC26112A7EDBC2FBFB4B25CCFEAD
+2025-02-20 12:46:19 - Successful login -> admin
+2025-02-20 12:46:19 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:46:19 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:46:19 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:46:19 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:46:19 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:46:19 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:46:19 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:46:55 - The session is destroyed:  182CBC26112A7EDBC2FBFB4B25CCFEAD
+2025-02-20 12:47:01 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:47:01 - Login attempt -> username=admin
+2025-02-20 12:47:01 - The session has been created:  44506651D1CA1D29D7D5B3538CC6D042
+2025-02-20 12:47:01 - Successful login -> admin
+2025-02-20 12:47:01 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:47:01 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:47:01 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:47:01 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:47:01 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:49:39 - The session is destroyed:  44506651D1CA1D29D7D5B3538CC6D042
+2025-02-20 12:49:46 - The request has been initialized: 127.0.0.1
+2025-02-20 12:49:46 - The request is destroyed: 127.0.0.1
+2025-02-20 12:49:46 - The request has been initialized: 127.0.0.1
+2025-02-20 12:49:46 - The request is destroyed: 127.0.0.1
+2025-02-20 12:50:00 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:50:00 - Login attempt -> username=admin
+2025-02-20 12:50:00 - The session has been created:  DEF35871D807AFD07C8F8F4DE149F192
+2025-02-20 12:50:00 - Successful login -> admin
+2025-02-20 12:50:00 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 12:51:22 - The session is destroyed:  DEF35871D807AFD07C8F8F4DE149F192
+2025-02-20 12:51:27 - The request has been initialized: 127.0.0.1
+2025-02-20 12:51:27 - The request is destroyed: 127.0.0.1
+2025-02-20 12:51:27 - The request has been initialized: 127.0.0.1
+2025-02-20 12:51:27 - The request is destroyed: 127.0.0.1
+2025-02-20 12:51:33 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 12:51:33 - Login attempt -> username=admin
+2025-02-20 12:51:34 - The session has been created:  3D30A9A777A3D163301CA86332C46977
+2025-02-20 12:51:34 - Successful login -> admin
+2025-02-20 12:51:34 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 13:00:00 - The session is destroyed:  3D30A9A777A3D163301CA86332C46977
+2025-02-20 13:00:05 - The request has been initialized: 127.0.0.1
+2025-02-20 13:00:05 - The request is destroyed: 127.0.0.1
+2025-02-20 13:00:05 - The request has been initialized: 127.0.0.1
+2025-02-20 13:00:05 - The request is destroyed: 127.0.0.1
+2025-02-20 13:00:11 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 13:00:11 - Login attempt -> username=admin
+2025-02-20 13:00:11 - The session has been created:  30DFE40A5A9698EFFBAD415F0097AA73
+2025-02-20 13:00:11 - Successful login -> admin
+2025-02-20 13:00:11 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 13:00:16 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 13:00:16 - Login attempt -> username=admin
+2025-02-20 13:00:16 - Successful login -> admin
+2025-02-20 13:00:16 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 13:00:20 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 13:00:20 - Login attempt -> username=admin
+2025-02-20 13:00:20 - Successful login -> admin
+2025-02-20 13:00:20 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 13:00:23 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 13:00:23 - Login attempt -> username=admin
+2025-02-20 13:00:23 - Successful login -> admin
+2025-02-20 13:00:23 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 13:00:26 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 13:00:26 - Login attempt -> username=admin
+2025-02-20 13:00:26 - Successful login -> admin
+2025-02-20 13:00:26 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 13:03:15 - The session is destroyed:  30DFE40A5A9698EFFBAD415F0097AA73
+2025-02-20 13:03:31 - The request has been initialized: 127.0.0.1
+2025-02-20 13:03:31 - The request is destroyed: 127.0.0.1
+2025-02-20 13:03:31 - The request has been initialized: 127.0.0.1
+2025-02-20 13:03:31 - The request is destroyed: 127.0.0.1
+2025-02-20 13:03:39 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 13:03:39 - Login attempt -> username=admin
+2025-02-20 13:03:39 - The session has been created:  EAC9724464FE4EF919F8D20D45B880ED
+2025-02-20 13:03:39 - Successful login -> admin
+2025-02-20 13:03:39 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 13:08:14 - The session is destroyed:  EAC9724464FE4EF919F8D20D45B880ED
+2025-02-20 13:08:20 - The request has been initialized: 127.0.0.1
+2025-02-20 13:08:20 - The request is destroyed: 127.0.0.1
+2025-02-20 13:08:20 - The request has been initialized: 127.0.0.1
+2025-02-20 13:08:20 - The request is destroyed: 127.0.0.1
+2025-02-20 13:08:36 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 13:08:36 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 13:08:46 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-20 13:08:46 - Login attempt -> username=admin
+2025-02-20 13:08:46 - The session has been created:  83FAAF953B88966A3714C97A14BB154B
+2025-02-20 13:08:46 - Successful login -> admin
+2025-02-20 13:08:46 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-20 13:39:20 - The session is destroyed:  83FAAF953B88966A3714C97A14BB154B
+2025-02-21 10:42:39 - The request has been initialized: 127.0.0.1
+2025-02-21 10:42:39 - The request is destroyed: 127.0.0.1
+2025-02-21 10:42:39 - The request has been initialized: 127.0.0.1
+2025-02-21 10:42:39 - The request is destroyed: 127.0.0.1
+2025-02-21 10:42:40 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:42:40 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:42:40 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:42:40 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:42:40 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:42:40 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:42:51 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:42:51 - Login attempt -> username=admin
+2025-02-21 10:42:52 - The user was not found -> admin
+2025-02-21 10:42:52 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:42:52 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:42:52 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:44:40 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:44:40 - Login attempt -> username=admin
+2025-02-21 10:44:40 - The session has been created:  07034DE1EF9055DB2C633D624C78B175
+2025-02-21 10:44:40 - Successful login -> admin
+2025-02-21 10:44:40 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:44:40 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:44:40 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:44:41 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:44:41 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:46:45 - The session is destroyed:  07034DE1EF9055DB2C633D624C78B175
+2025-02-21 10:46:51 - The request has been initialized: 127.0.0.1
+2025-02-21 10:46:51 - The request is destroyed: 127.0.0.1
+2025-02-21 10:46:51 - The request has been initialized: 127.0.0.1
+2025-02-21 10:46:51 - The request is destroyed: 127.0.0.1
+2025-02-21 10:47:00 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:47:00 - Login attempt -> username=admin
+2025-02-21 10:47:00 - The session has been created:  F256B068DE6EEE369DFB997C1E5AF244
+2025-02-21 10:47:00 - Successful login -> admin
+2025-02-21 10:47:00 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:48:20 - The session is destroyed:  F256B068DE6EEE369DFB997C1E5AF244
+2025-02-21 10:48:26 - The request has been initialized: 127.0.0.1
+2025-02-21 10:48:26 - The request is destroyed: 127.0.0.1
+2025-02-21 10:48:26 - The request has been initialized: 127.0.0.1
+2025-02-21 10:48:26 - The request is destroyed: 127.0.0.1
+2025-02-21 10:48:32 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:48:32 - Login attempt -> username=admin
+2025-02-21 10:48:33 - The session has been created:  1071EE8BFC0A117D28644B3CA7CC7249
+2025-02-21 10:48:33 - Successful login -> admin
+2025-02-21 10:48:33 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:49:08 - The session is destroyed:  1071EE8BFC0A117D28644B3CA7CC7249
+2025-02-21 10:49:14 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:49:14 - The session has been created:  CE36DE853F60F13132B10CF12A4317DD
+2025-02-21 10:49:14 - User redirected to 500 error page
+2025-02-21 10:49:14 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:49:14 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:49:14 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:49:15 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:49:15 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:49:21 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:49:21 - Login attempt -> username=admin
+2025-02-21 10:49:21 - The user was not found -> admin
+2025-02-21 10:49:21 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:49:21 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:49:21 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:49:32 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:49:32 - Login attempt -> username=admin
+2025-02-21 10:49:32 - Successful login -> admin
+2025-02-21 10:49:32 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:49:58 - The session is destroyed:  CE36DE853F60F13132B10CF12A4317DD
+2025-02-21 10:50:03 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:50:03 - Login attempt -> username=admin
+2025-02-21 10:50:03 - The session has been created:  8A0255F83E85F1A3177AC99465031A5F
+2025-02-21 10:50:03 - Successful login -> admin
+2025-02-21 10:50:03 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:50:08 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:50:08 - The user logs out of the system -> admin
+2025-02-21 10:50:08 - The session is destroyed:  8A0255F83E85F1A3177AC99465031A5F
+2025-02-21 10:50:08 - User session admin completed successfully
+2025-02-21 10:50:08 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:50:08 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:50:08 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:50:13 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:50:13 - Login attempt -> username=admin
+2025-02-21 10:50:13 - The session has been created:  EB60E9D76E60355EA81FE0CB140FE320
+2025-02-21 10:50:13 - Successful login -> admin
+2025-02-21 10:50:13 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:50:24 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:50:24 - Login attempt -> username=admin
+2025-02-21 10:50:24 - Successful login -> admin
+2025-02-21 10:50:24 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:50:24 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:50:24 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:50:24 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:50:24 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:50:24 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 10:50:24 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 10:53:52 - The session is destroyed:  EB60E9D76E60355EA81FE0CB140FE320
+2025-02-21 11:11:52 - The request has been initialized: 127.0.0.1
+2025-02-21 11:11:52 - The request is destroyed: 127.0.0.1
+2025-02-21 11:11:52 - The request has been initialized: 127.0.0.1
+2025-02-21 11:11:52 - The request is destroyed: 127.0.0.1
+2025-02-21 11:11:53 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:11:53 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:14:34 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:14:34 - Login attempt -> login=null
+2025-02-21 11:14:34 - The user was not found -> null
+2025-02-21 11:14:34 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:14:34 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:14:34 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:14:45 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:14:45 - Login attempt -> login=admin
+2025-02-21 11:14:45 - The session has been created:  6AB338BE9CAC7EEEB74474221CD93161
+2025-02-21 11:14:45 - Successful login -> admin
+2025-02-21 11:14:45 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:14:51 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:14:51 - Filter -> The user  adminwas redirect to ...
+2025-02-21 11:14:51 - The user -> admin went to the todolist page
+2025-02-21 11:14:53 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:15:37 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:15:37 - Filter -> The user  adminwas redirect to ...
+2025-02-21 11:15:37 - User null add new task Learn English
+2025-02-21 11:15:37 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:15:42 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:15:42 - Filter -> The user  adminwas redirect to ...
+2025-02-21 11:15:42 - User null add new task Learn Java Core
+2025-02-21 11:15:42 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:15:48 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:15:48 - Filter -> The user  adminwas redirect to ...
+2025-02-21 11:15:48 - User null remove task Learn Java Core
+2025-02-21 11:15:48 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:15:50 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:15:50 - Filter -> The user  adminwas redirect to ...
+2025-02-21 11:15:50 - User null remove task Learn English
+2025-02-21 11:15:50 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:16:00 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:16:00 - Filter -> The user  adminwas redirect to ...
+2025-02-21 11:16:00 - User redirected to 401 error page
+2025-02-21 11:16:00 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:16:00 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:16:00 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:16:14 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:16:14 - Login attempt -> login=null
+2025-02-21 11:16:14 - The user was not found -> null
+2025-02-21 11:16:14 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:16:14 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:16:14 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:16:23 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:16:23 - Login attempt -> login=admin
+2025-02-21 11:16:23 - Successful login -> admin
+2025-02-21 11:16:23 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:16:30 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:16:30 - Filter -> The user  adminwas redirect to ...
+2025-02-21 11:16:30 - The user -> admin went to the todolist page
+2025-02-21 11:16:30 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:17:40 - The session is destroyed:  6AB338BE9CAC7EEEB74474221CD93161
+2025-02-21 11:18:07 - The request has been initialized: 127.0.0.1
+2025-02-21 11:18:07 - The request is destroyed: 127.0.0.1
+2025-02-21 11:18:07 - The request has been initialized: 127.0.0.1
+2025-02-21 11:18:07 - The request is destroyed: 127.0.0.1
+2025-02-21 11:18:14 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:18:14 - Login attempt -> login=null
+2025-02-21 11:18:14 - The user was not found -> null
+2025-02-21 11:18:14 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:18:14 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:18:14 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:18:21 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:18:21 - Login attempt -> login=admin
+2025-02-21 11:18:21 - The session has been created:  5517652B3F4F83F97F55509AF04C7F5A
+2025-02-21 11:18:21 - Successful login -> admin
+2025-02-21 11:18:21 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:18:25 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:18:25 - Filter -> The user  adminwas redirect to ...
+2025-02-21 11:18:25 - The user -> admin went to the todolist page
+2025-02-21 11:18:26 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:18:34 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:18:34 - Filter -> The user  adminwas redirect to ...
+2025-02-21 11:18:34 - User redirected to 401 error page
+2025-02-21 11:18:34 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:20:18 - The session is destroyed:  5517652B3F4F83F97F55509AF04C7F5A
+2025-02-21 11:20:23 - The request has been initialized: 127.0.0.1
+2025-02-21 11:20:23 - The request is destroyed: 127.0.0.1
+2025-02-21 11:20:23 - The request has been initialized: 127.0.0.1
+2025-02-21 11:20:23 - The request is destroyed: 127.0.0.1
+2025-02-21 11:20:30 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:20:30 - Login attempt -> login=null
+2025-02-21 11:20:30 - The user was not found -> null
+2025-02-21 11:20:30 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:20:30 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:20:30 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:20:39 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:20:39 - Login attempt -> login=admin
+2025-02-21 11:20:39 - The session has been created:  959325F9663978763787B2D91AEBB8FF
+2025-02-21 11:20:39 - Successful login -> admin
+2025-02-21 11:20:39 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:20:42 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:20:42 - Filter -> The user  adminwas redirect to ...
+2025-02-21 11:20:42 - The user -> admin went to the todolist page
+2025-02-21 11:20:43 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:20:46 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:20:46 - Filter -> The user  adminwas redirect to ...
+2025-02-21 11:20:46 - User redirected to 401 error page
+2025-02-21 11:20:46 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:22:28 - The session is destroyed:  959325F9663978763787B2D91AEBB8FF
+2025-02-21 11:22:34 - The request has been initialized: 127.0.0.1
+2025-02-21 11:22:34 - The request is destroyed: 127.0.0.1
+2025-02-21 11:22:34 - The request has been initialized: 127.0.0.1
+2025-02-21 11:22:34 - The request is destroyed: 127.0.0.1
+2025-02-21 11:22:41 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:22:41 - Login attempt -> login=null
+2025-02-21 11:22:42 - The user was not found -> null
+2025-02-21 11:22:42 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:22:42 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:22:42 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:22:50 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:22:50 - Login attempt -> login=admin
+2025-02-21 11:22:50 - The session has been created:  CE714AA59072E93CA32CEB8A338AD09B
+2025-02-21 11:22:50 - Successful login -> admin
+2025-02-21 11:22:50 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:22:54 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:22:54 - Filter -> The user  adminwas redirect to ...
+2025-02-21 11:22:54 - The user -> admin went to the todolist page
+2025-02-21 11:22:55 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:22:58 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:22:58 - Filter -> The user  adminwas redirect to ...
+2025-02-21 11:22:58 - The user -> admin went to the about me page
+2025-02-21 11:22:58 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:23:06 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:23:06 - The user logs out of the system -> admin
+2025-02-21 11:23:06 - The session is destroyed:  CE714AA59072E93CA32CEB8A338AD09B
+2025-02-21 11:23:06 - User session admin completed successfully
+2025-02-21 11:23:06 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:23:06 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:23:06 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:23:16 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:23:16 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:51:05 - The request has been initialized: 127.0.0.1
+2025-02-21 11:51:05 - The request is destroyed: 127.0.0.1
+2025-02-21 11:51:05 - The request has been initialized: 127.0.0.1
+2025-02-21 11:51:05 - The request is destroyed: 127.0.0.1
+2025-02-21 11:51:16 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:51:16 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:52:01 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:52:01 - Registration attempt -> login=user
+2025-02-21 11:52:01 - The session has been created:  57D810DC96504E6CDBA7A7CEF9A4B2ED
+2025-02-21 11:52:02 - Exception add userОШИБКА: значение NULL в столбце "second_name" отношения "users" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (5, Alex, null, 2025-02-21 11:52:02.001249, 2025-02-21 11:52:02.001249, 27).
+2025-02-21 11:52:02 - Successful registration -> user
+2025-02-21 11:52:02 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:52:26 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:52:26 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:52:33 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:52:33 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:53:53 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:53:53 - Registration attempt -> login=user
+2025-02-21 11:53:53 - Exception add userОШИБКА: значение NULL в столбце "second_name" отношения "users" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (6, Alex, null, 2025-02-21 11:53:53.905532, 2025-02-21 11:53:53.905532, 27).
+2025-02-21 11:53:53 - Successful registration -> user
+2025-02-21 11:53:53 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 11:54:05 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 11:54:05 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:01:06 - The session is destroyed:  57D810DC96504E6CDBA7A7CEF9A4B2ED
+2025-02-21 12:01:12 - The request has been initialized: 127.0.0.1
+2025-02-21 12:01:12 - The request is destroyed: 127.0.0.1
+2025-02-21 12:01:12 - The request has been initialized: 127.0.0.1
+2025-02-21 12:01:12 - The request is destroyed: 127.0.0.1
+2025-02-21 12:01:15 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:01:15 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:01:54 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:01:54 - Registration attempt -> login=user
+2025-02-21 12:01:54 - The session has been created:  59A72770D8CBF6739E694D032571DFA6
+2025-02-21 12:01:54 - Exception add userОШИБКА: значение NULL в столбце "second_name" отношения "users" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (7, Alex, null, 2025-02-21 12:01:54.696931, 2025-02-21 12:01:54.696931, 25).
+2025-02-21 12:01:54 - Successful registration -> false/ Created new user Alex null
+2025-02-21 12:01:54 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:02:20 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:02:20 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:05:13 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:05:13 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:05:56 - The session is destroyed:  59A72770D8CBF6739E694D032571DFA6
+2025-02-21 12:06:12 - The request has been initialized: 127.0.0.1
+2025-02-21 12:06:12 - The request is destroyed: 127.0.0.1
+2025-02-21 12:06:12 - The request has been initialized: 127.0.0.1
+2025-02-21 12:06:12 - The request is destroyed: 127.0.0.1
+2025-02-21 12:06:12 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:06:12 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:06:13 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:06:13 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:06:13 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:06:13 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:06:22 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:06:22 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:06:58 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:09:40 - Registration attempt -> login=user
+2025-02-21 12:09:40 - The session has been created:  E17F83B60AC047B8667430AF8395E666
+2025-02-21 12:09:40 - Exception add userОШИБКА: значение NULL в столбце "second_name" отношения "users" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (8, Ivan, null, 2025-02-21 12:09:40.933489, 2025-02-21 12:09:40.933489, 23).
+2025-02-21 12:09:40 - Successful registration -> false/ Created new user Ivan null
+2025-02-21 12:09:40 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:09:40 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:09:40 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:09:40 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:09:40 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:09:41 - The session is destroyed:  E17F83B60AC047B8667430AF8395E666
+2025-02-21 12:09:46 - The request has been initialized: 127.0.0.1
+2025-02-21 12:09:46 - The request is destroyed: 127.0.0.1
+2025-02-21 12:09:46 - The request has been initialized: 127.0.0.1
+2025-02-21 12:09:46 - The request is destroyed: 127.0.0.1
+2025-02-21 12:10:30 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:16:12 - Registration attempt -> login=user
+2025-02-21 12:16:13 - The session has been created:  259DF4995C2AB6B1B88CDBB8213217EA
+2025-02-21 12:16:13 - Exception add userОШИБКА: значение NULL в столбце "second_name" отношения "users" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (9, Ivan, null, 2025-02-21 12:16:13.297744, 2025-02-21 12:16:13.297744, 23).
+2025-02-21 12:16:13 - Successful registration -> false/ Created new user Ivan null
+2025-02-21 12:16:13 - The session is destroyed:  259DF4995C2AB6B1B88CDBB8213217EA
+2025-02-21 12:16:19 - The request has been initialized: 127.0.0.1
+2025-02-21 12:16:19 - The request is destroyed: 127.0.0.1
+2025-02-21 12:16:19 - The request has been initialized: 127.0.0.1
+2025-02-21 12:16:19 - The request is destroyed: 127.0.0.1
+2025-02-21 12:16:19 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:16:19 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:21:30 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:21:30 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:21:40 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:22:04 - Registration attempt -> login=user
+2025-02-21 12:22:04 - The session has been created:  B9C15B0570F73A767F9B79FF2CEB7090
+2025-02-21 12:22:05 - Exception add userОШИБКА: значение NULL в столбце "second_name" отношения "users" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (10, Ivan, null, 2025-02-21 12:22:05.054357, 2025-02-21 12:22:05.054357, 23).
+2025-02-21 12:22:05 - Successful registration -> false/ Created new user Ivan null
+2025-02-21 12:22:05 - The session is destroyed:  B9C15B0570F73A767F9B79FF2CEB7090
+2025-02-21 12:23:48 - The request has been initialized: 127.0.0.1
+2025-02-21 12:23:48 - The request is destroyed: 127.0.0.1
+2025-02-21 12:23:48 - The request has been initialized: 127.0.0.1
+2025-02-21 12:23:48 - The request is destroyed: 127.0.0.1
+2025-02-21 12:23:48 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:23:48 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:24:04 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:25:41 - Registration attempt -> login=user
+2025-02-21 12:25:52 - The request has been initialized: 127.0.0.1
+2025-02-21 12:25:52 - The request is destroyed: 127.0.0.1
+2025-02-21 12:25:52 - The request has been initialized: 127.0.0.1
+2025-02-21 12:25:52 - The request is destroyed: 127.0.0.1
+2025-02-21 12:26:05 - The request has been initialized: 127.0.0.1
+2025-02-21 12:26:05 - The request is destroyed: 127.0.0.1
+2025-02-21 12:26:05 - The request has been initialized: 127.0.0.1
+2025-02-21 12:26:05 - The request is destroyed: 127.0.0.1
+2025-02-21 12:26:19 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:28:02 - Registration attempt -> login=user
+2025-02-21 12:28:03 - The session has been created:  FD44AD039B99CAFC71B2C9DDFC4F58F0
+2025-02-21 12:28:03 - Exception add userОШИБКА: значение NULL в столбце "second_name" отношения "users" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (11, Ivan, null, 2025-02-21 12:28:03.108845, 2025-02-21 12:28:03.108845, 23).
+2025-02-21 12:28:03 - Successful registration -> false/ Created new user Ivan null
+2025-02-21 12:28:03 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:28:03 - The session is destroyed:  FD44AD039B99CAFC71B2C9DDFC4F58F0
+2025-02-21 12:28:17 - The request has been initialized: 127.0.0.1
+2025-02-21 12:28:17 - The request is destroyed: 127.0.0.1
+2025-02-21 12:28:17 - The request has been initialized: 127.0.0.1
+2025-02-21 12:28:17 - The request is destroyed: 127.0.0.1
+2025-02-21 12:28:29 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:28:29 - Registration attempt -> login=user
+2025-02-21 12:28:29 - The session has been created:  F64B2A0BC1BE23CBFBD37B833DE166B1
+2025-02-21 12:28:29 - user successfully added to the database
+2025-02-21 12:28:29 - Successful registration -> true/ Created new user Ivan Ivanov
+2025-02-21 12:28:29 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:30:23 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:30:23 - Filter -> The user  userwas redirect to ...
+2025-02-21 12:30:23 - The user -> user went to the todolist page
+2025-02-21 12:30:24 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:30:49 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:30:49 - Filter -> The user  userwas redirect to ...
+2025-02-21 12:30:49 - The user -> user went to the about me page
+2025-02-21 12:30:49 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:30:55 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:30:55 - The user logs out of the system -> user
+2025-02-21 12:30:55 - The session is destroyed:  F64B2A0BC1BE23CBFBD37B833DE166B1
+2025-02-21 12:30:55 - User session user completed successfully
+2025-02-21 12:30:55 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:30:55 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:30:55 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:52:50 - The request has been initialized: 127.0.0.1
+2025-02-21 12:52:50 - The request is destroyed: 127.0.0.1
+2025-02-21 12:52:50 - The request has been initialized: 127.0.0.1
+2025-02-21 12:52:50 - The request is destroyed: 127.0.0.1
+2025-02-21 12:52:50 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:52:50 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:52:58 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:52:58 - Login attempt -> login=user
+2025-02-21 12:52:58 - The session has been created:  28194A6E2F80EE13065A64BFBD0B1903
+2025-02-21 12:52:58 - Successful login -> user
+2025-02-21 12:52:58 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 12:53:49 - The session is destroyed:  28194A6E2F80EE13065A64BFBD0B1903
+2025-02-21 12:53:55 - The request has been initialized: 127.0.0.1
+2025-02-21 12:53:55 - The request is destroyed: 127.0.0.1
+2025-02-21 12:53:55 - The request has been initialized: 127.0.0.1
+2025-02-21 12:53:55 - The request is destroyed: 127.0.0.1
+2025-02-21 12:54:07 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 12:54:07 - Login attempt -> login=user
+2025-02-21 12:54:08 - The session has been created:  CB05D1B97DDCB7D5EA1BB586EE5E9899
+2025-02-21 12:54:08 - Successful login -> user
+2025-02-21 12:54:08 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 13:24:55 - The session is destroyed:  CB05D1B97DDCB7D5EA1BB586EE5E9899
+2025-02-21 14:38:21 - The request has been initialized: 127.0.0.1
+2025-02-21 14:38:21 - The request is destroyed: 127.0.0.1
+2025-02-21 14:38:21 - The request has been initialized: 127.0.0.1
+2025-02-21 14:38:21 - The request is destroyed: 127.0.0.1
+2025-02-21 14:38:21 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 14:38:21 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 14:38:30 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 14:38:30 - Login attempt -> login=user
+2025-02-21 14:38:30 - The session has been created:  458F561D3D650DAFFF1E51DD4AF6C9B2
+2025-02-21 14:38:30 - Successful login -> user
+2025-02-21 14:38:30 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 14:38:50 - The session is destroyed:  458F561D3D650DAFFF1E51DD4AF6C9B2
+2025-02-21 14:39:18 - The request has been initialized: 127.0.0.1
+2025-02-21 14:39:18 - The request is destroyed: 127.0.0.1
+2025-02-21 14:39:18 - The request has been initialized: 127.0.0.1
+2025-02-21 14:39:18 - The request is destroyed: 127.0.0.1
+2025-02-21 14:39:24 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 14:39:24 - Login attempt -> login=user
+2025-02-21 14:39:24 - The session has been created:  07C89346BE5B2A44280620DF5F900A94
+2025-02-21 14:39:24 - Successful login -> user
+2025-02-21 14:39:24 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 14:47:29 - The session is destroyed:  07C89346BE5B2A44280620DF5F900A94
+2025-02-21 14:47:36 - The request has been initialized: 127.0.0.1
+2025-02-21 14:47:36 - The request is destroyed: 127.0.0.1
+2025-02-21 14:47:36 - The request has been initialized: 127.0.0.1
+2025-02-21 14:47:36 - The request is destroyed: 127.0.0.1
+2025-02-21 14:47:42 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 14:47:42 - Login attempt -> login=user
+2025-02-21 14:47:43 - The user was not found -> user
+2025-02-21 14:47:43 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 14:47:43 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 14:47:43 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 14:47:49 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 14:47:49 - Login attempt -> login=user
+2025-02-21 14:47:49 - The session has been created:  CF7260C5BB5561C67B8AFFF520BDF272
+2025-02-21 14:47:49 - Successful login -> user
+2025-02-21 14:47:49 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 14:48:09 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 14:48:09 - Login attempt -> login=user
+2025-02-21 14:48:09 - Successful login -> user
+2025-02-21 14:48:09 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 14:48:37 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 14:48:37 - Login attempt -> login=user
+2025-02-21 14:48:37 - Successful login -> user
+2025-02-21 14:48:37 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 14:48:37 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 14:48:37 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 14:56:38 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 14:56:38 - Login attempt -> login=user
+2025-02-21 14:56:38 - Successful login -> user
+2025-02-21 14:56:38 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 15:00:26 - The session is destroyed:  CF7260C5BB5561C67B8AFFF520BDF272
+2025-02-21 15:00:32 - The request has been initialized: 127.0.0.1
+2025-02-21 15:00:32 - The request is destroyed: 127.0.0.1
+2025-02-21 15:00:32 - The request has been initialized: 127.0.0.1
+2025-02-21 15:00:32 - The request is destroyed: 127.0.0.1
+2025-02-21 15:00:32 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 15:00:32 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 15:00:39 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 15:00:39 - Login attempt -> login=user
+2025-02-21 15:00:40 - The session has been created:  F661BF1876BF3397416ADC5FF19729E7
+2025-02-21 15:00:40 - Successful login -> user
+2025-02-21 15:00:40 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 15:02:01 - The session is destroyed:  F661BF1876BF3397416ADC5FF19729E7
+2025-02-21 15:12:59 - The request has been initialized: 127.0.0.1
+2025-02-21 15:12:59 - The request is destroyed: 127.0.0.1
+2025-02-21 15:12:59 - The request has been initialized: 127.0.0.1
+2025-02-21 15:12:59 - The request is destroyed: 127.0.0.1
+2025-02-21 15:13:05 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 15:13:05 - Login attempt -> login=user
+2025-02-21 15:13:05 - The session has been created:  07ADC9236C86D863F458D4E822EA3BCE
+2025-02-21 15:13:05 - Successful login -> user
+2025-02-21 15:13:05 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 15:22:55 - The session is destroyed:  07ADC9236C86D863F458D4E822EA3BCE
+2025-02-21 15:23:01 - The request has been initialized: 127.0.0.1
+2025-02-21 15:23:01 - The request is destroyed: 127.0.0.1
+2025-02-21 15:23:01 - The request has been initialized: 127.0.0.1
+2025-02-21 15:23:01 - The request is destroyed: 127.0.0.1
+2025-02-21 15:23:09 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 15:23:09 - Login attempt -> login=admin
+2025-02-21 15:23:09 - The session has been created:  D1834B78D046BD7BA19B1518F28B6FEC
+2025-02-21 15:23:09 - Successful login -> admin
+2025-02-21 15:23:09 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 15:30:30 - The request has been initialized: 0:0:0:0:0:0:0:1
+2025-02-21 15:30:30 - Filter -> The user  adminwas redirect to ...
+2025-02-21 15:30:30 - The user -> admin went to the todolist page
+2025-02-21 15:30:31 - The request is destroyed: 0:0:0:0:0:0:0:1
+2025-02-21 16:01:02 - The session is destroyed:  D1834B78D046BD7BA19B1518F28B6FEC

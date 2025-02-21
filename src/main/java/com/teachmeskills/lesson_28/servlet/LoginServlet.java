@@ -23,20 +23,20 @@ public class LoginServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-       String username = req.getParameter("username");
+       String login = req.getParameter("login");
        String password = req.getParameter("password");
 
-         LoggerUtil.logToFile("Login attempt -> username=" + username);
+         LoggerUtil.logToFile("Login attempt -> login=" + login);
          UserRepository userRepository = new UserRepository();
-         boolean isValid = userRepository.isValid(username, password);
+         boolean isValid = userRepository.isValid(login, password);
 
         if (isValid){
             HttpSession newSession = req.getSession();
-            newSession.setAttribute("username", username);
-            LoggerUtil.logToFile("Successful login -> " + username);
+            newSession.setAttribute("login", login);
+            LoggerUtil.logToFile("Successful login -> " + login);
             req.getRequestDispatcher("/page/about.html").forward(req,resp);
         }else {
-            LoggerUtil.logToFile("The user was not found -> " + username);
+            LoggerUtil.logToFile("The user was not found -> " + login);
             resp.sendRedirect("/login.html?error=true");
         }
     }
@@ -44,8 +44,8 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession session = req.getSession();
-        String username = (String) session.getAttribute("username");
-        if (username == null){
+        String login = (String) session.getAttribute("login");
+        if (login == null){
             req.getRequestDispatcher("/login.html").forward(req,resp);
         }else {
             req.getRequestDispatcher("/page/about.html").forward(req,resp);

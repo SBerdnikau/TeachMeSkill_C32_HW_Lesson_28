@@ -26,11 +26,11 @@ public class TodoListServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession session = req.getSession();
-        String username = (String) session.getAttribute("username");
-        if (username != null) {
-            Set<String> tasks = taskRepository.getTasksByUsername(username);
+        String login = (String) session.getAttribute("login");
+        if (login != null) {
+            Set<String> tasks = taskRepository.getTasksByUsername(login);
             req.setAttribute("tasks", tasks);
-            LoggerUtil.logToFile("The user -> " + req.getSession().getAttribute("username") + " went to the todolist page");
+            LoggerUtil.logToFile("The user -> " + req.getSession().getAttribute("login") + " went to the todolist page");
             req.getRequestDispatcher("/page/todolist.jsp").forward(req, resp);
         }else {
             LoggerUtil.logToFile("User redirected to 401 error page");
