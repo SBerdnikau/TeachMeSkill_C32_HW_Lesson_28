@@ -62,6 +62,22 @@ public class UserRepository {
         }
     }
 
+    public User getUserByLogin(String login){
+        Connection connection = databaseService.getConnection();
+        PreparedStatement preparedStatement;
+        try {
+            preparedStatement = connection.prepareStatement(SQLQuery.GET_USER_BY_LOGIN);
+            preparedStatement.setString(1, login);
+            ResultSet result = preparedStatement.executeQuery();
+            if (result.next()) {
+                return parseUser(result);
+            }
+        }catch (SQLException e){
+            throw new RuntimeException(e);
+        }
+        return null;
+    }
+
     public User parseUser(ResultSet result) {
         try {
             User user = new User();

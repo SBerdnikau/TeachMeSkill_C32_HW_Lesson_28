@@ -28,9 +28,9 @@ public class TodoListServlet extends HttpServlet {
         HttpSession session = req.getSession();
         String login = (String) session.getAttribute("login");
         if (login != null) {
-            Set<String> tasks = taskRepository.getTasksByUsername(login);
+            Set<String> tasks = taskRepository.getTaskByLogin(login);
             req.setAttribute("tasks", tasks);
-            LoggerUtil.logToFile("The user -> " + req.getSession().getAttribute("login") + " went to the todolist page");
+            LoggerUtil.logToFile("The user -> " + req.getSession().getAttribute("login") + " went to the todolist page, and added task  ");
             req.getRequestDispatcher("/page/todolist.jsp").forward(req, resp);
         }else {
             LoggerUtil.logToFile("User redirected to 401 error page");
@@ -43,23 +43,24 @@ public class TodoListServlet extends HttpServlet {
         String newTask = req.getParameter("newTask");
         String deleteTask = req.getParameter("deleteTask");
         HttpSession session = req.getSession();
-        String username = (String) session.getAttribute("username");
-
-        Set<String> tasks = taskRepository.getTasksByUsername(username);
+        String login = (String) session.getAttribute("login");
 
         if (newTask != null){
-            tasks.add(newTask);
-            LoggerUtil.logToFile("User " + username + " add new task " + newTask);
-            taskRepository.getTaskList().put(username, tasks);
+            if(taskRepository.addTask(login, newTask)){
+                Set<String> tasks  = taskRepository.getTaskByLogin(login);
+                LoggerUtil.logToFile("User " + login + " add new task " + newTask + " to the todolist ");
+                req.setAttribute("tasks", tasks);
+                req.getRequestDispatcher("/page/todolist.jsp").forward(req, resp);
+            }
         }
 
         if (deleteTask != null){
-            tasks.remove(deleteTask);
-            LoggerUtil.logToFile("User " + username + " remove task " + deleteTask);
-            taskRepository.getTaskList().put(username, tasks);
+            if (taskRepository.removeTaskByLogin(login, deleteTask)){
+                Set<String> tasks  = taskRepository.getTaskByLogin(login);
+                LoggerUtil.logToFile("User " + login + " remove task " + deleteTask);
+                req.setAttribute("tasks", tasks);
+                req.getRequestDispatcher("/page/todolist.jsp").forward(req, resp);
+            }
         }
-
-        req.setAttribute("tasks", tasks);
-        req.getRequestDispatcher("/page/todolist.jsp").forward(req, resp);
     }
 }

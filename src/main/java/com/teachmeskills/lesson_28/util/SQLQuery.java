@@ -9,4 +9,8 @@ public interface SQLQuery {
     String CALL_DELETE_USER_BY_FIRSTNAME = "CALL delete_user_by_first_name('Bill333')";
     String GET_SECURITY_BY_LOGIN = "SELECT * FROM security WHERE login = ?";
     String CREATE_TASK = "INSERT INTO tasks (id, description, created, changed, user_id) VALUES (DEFAULT, ?, DEFAULT, DEFAULT, ?)";
+    String GET_TASK_BY_LOGIN = "SELECT * FROM tasks WHERE user_id = (SELECT id FROM users WHERE id = (SELECT id FROM security WHERE login = ?));";
+    String GET_ALL_TASKS = "SELECT * FROM tasks";
+    String GET_USER_BY_LOGIN = "SELECT * FROM users WHERE id = (SELECT user_id FROM security WHERE login  = ?)";;
+    String DELETE_TASK_BY_LOGIN = "DELETE FROM tasks WHERE user_id = (SELECT user_id FROM security WHERE login = ?) AND description = ?";
 }
